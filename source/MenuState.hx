@@ -13,7 +13,7 @@ class MenuState extends FlxState
 	{
 		super.create();
 		Reg.highscore = 1000;
-		Reg.highscore += Reg.
+		Reg.highscore += Reg.puntosEnemigos;
 	}
 
 	override public function update(elapsed:Float):Void
